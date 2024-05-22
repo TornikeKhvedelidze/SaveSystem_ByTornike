@@ -38,18 +38,9 @@ public class Saveable<T> : ISaveAble where T : class, ISaveAble
         SaveSystemByTornike.OnSave += Save;
     }
 
-    public virtual void BeforeSave()
-    {
+    public virtual void BeforeSave() { }
 
-    }
+    public virtual void Saved() { }
 
-    public virtual void Saved()
-    {
-
-    }
-
-    public virtual void Loaded()
-    {
-
-    }
+    public virtual void Loaded() { }
 }

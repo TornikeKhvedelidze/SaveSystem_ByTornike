@@ -139,5 +139,4 @@ public class SaveSystemByTornike : Singleton<SaveSystemByTornike>
             InvokeSave();
         }
     }
-
 }

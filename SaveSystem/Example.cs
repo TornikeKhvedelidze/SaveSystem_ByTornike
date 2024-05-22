@@ -42,11 +42,11 @@ public class Example : MonoBehaviour
     {
         _exampleSaveSystem.Load(out _exampleSaveSystem, Loaded);
     }
+
     private void OnDisable()
     {
         _exampleSaveSystem.Save();
     }
-
     private void OnDestroy()
     {
         _exampleSaveSystem.Save();
